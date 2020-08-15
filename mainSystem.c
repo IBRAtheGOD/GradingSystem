@@ -4,10 +4,13 @@
 
 int main()
 {
+	/*displays main menu until false(when you exit) */
 	while(1){
  printf("\t- - - - - - - - - - - MAIN MENU - - - - - - - - - - -\n");
+ 	/* displays menu selections */
  printf("\t1. Login\n\n \t2. Teacher Info \n\n \t3. Student Info\n\n \t4. Exit\n\t");
 int menuChoice;
+	/* prompts user to choose menu selection and checks and then executes */
 scanf("%i", &menuChoice);
 if(menuChoice == 1){
 	int loginChoice;
